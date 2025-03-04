@@ -14,26 +14,27 @@ This project used event study approach and GARCH-family models to study the stoc
 
 ## Project Objectives
 
-This project investigates the effects of the COVID-19 pandemic and government lockdown policy on Vietnam's stock market performance. The study examines five major stock indices across Vietnam's three stock exchanges (Ho Chi Minh City Stock Exchange, Hanoi Stock Exchange, and Unlisted Public Company Market) during the first wave of the pandemic from January to October 2020. Using both event study methodology and GARCH family models, this research analyzes stock returns and volatility in response to COVID-19 case announcements and government intervention measures. The questions that need to be answered are:
+This project investigates the effects of the COVID-19 pandemic and government lockdown policy on Vietnam's stock market performance. The study examines five major stock indices across Vietnam's three stock exchanges (Ho Chi Minh City Stock Exchange, Hanoi Stock Exchange, and Unlisted Public Company Market) during the first wave of the pandemic from January to October 2020. Using both event study methodology and GARCH family models, this project analyzes stock returns and volatility in response to COVID-19 case announcements and government intervention measures. The questions that I am looking for the answer are:
+
 1. Does the COVID-19 outbreak, particularly the daily growth in confirmed cases, affect Vietnam's stock market returns?
 2. How does the market respond to the government's lockdown policy implementation?
 3. What changes in stock market volatility occur during the COVID-19 pandemic?
 4. Does the lockdown policy influence stock market volatility?
 
 ## Highlights of Findings
-Results reveal that the stock market responded negatively to COVID-19 cases but showed positive reactions to the implementation of the national lockdown. Volatility analysis demonstrates increased market fluctuations during the pre-lockdown period and decreased volatility after lockdown measures were lifted, indicating that timely government intervention helped restore investor confidence.
+Results reveal that the stock market **responded negatively to COVID-19 cases but showed positive reactions to the national lockdown**. Volatility analysis demonstrates **increased market fluctuations** during the pre-lockdown period and decreased volatility after lockdown measures were lifted, indicating that timely government intervention helped restore investor confidence.
 
 - **Event Study Analysis**
-  - The Vietnam stock market and its five investigated indices experienced significant adverse impacts from the COVID-19 outbreak, evidenced by excessive negative abnormal returns (AR and AAR) during the event window.
-  - An increase in reported COVID-19 cases led to a corresponding increase in negative AR and ARR.
-  - Stock returns improved during the lockdown period, reflecting the effectiveness of the Vietnamese government's drastic policy responses in alleviating market fears and uncertainty.
+  - The Vietnam stock market and its five investigated indices experienced **significant adverse impacts** from the COVID-19 outbreak, evidenced by **excessive negative abnormal returns (AR and AAR)** during the event window.
+  - An increase in reported **COVID-19 cases** led to a corresponding **increase in negative AR and ARR**.
+  - **Stock returns improved during the lockdown period**, reflecting the effectiveness of the Vietnamese government's drastic policy responses in alleviating market fears and uncertainty.
 
 - **GARCH Models Analysis**
-  - The application of the GARCH family of models revealed significant changes in market volatility as well as leverage effects.
+  - The application of the GARCH family of models revealed significant changes in market volatility as well as ** leverage effects.**
   - Positive and significant pre-lockdown coefficients indicate heightened volatility before the implementation of nationwide physical distancing.
   - Negative and significant post-lockdown coefficients suggest that market volatility decreased following the lockdown measures.
   - The market demonstrated asymmetric volatility—negative news has a greater impact on volatility than positive news.
-  - Evidence of mean reversion is observed, with the sum of the ARCH and GARCH coefficients being lower than one (except in the case of EGARCH (1,1)).
+  - **Evidence of mean reversion is observed**, with the sum of the ARCH and GARCH coefficients being lower than one (except in the case of EGARCH (1,1)).
 
 ## Data Description
 
@@ -240,7 +241,7 @@ Stock market return and volatility in response to news
 | HNXI30   | 0.957339       | 1.223732        | 0.960036           |
 | UPCOMI   | 0.868896       | 0.796884        | 0.556494           |
 
-> Regarding the regression results presented in Table 4.15 and Error! Reference source not found., it is apparent that the volatility of the stock market is variable in the period before and after the implementation of the lockdown policy. Specifically, the volatility increases before the lockdown policy take effect while decrease after it ended. Therefore, the null hypothesis of Hypothesis (4) that the volatility remains the same in the period before and after the lockdown can be rejected. Vietnamese government's swift and astute actions in controlling the COVID-19 pandemic has relieved the fears and pessimism lingering in the market. It acts as pain relief to the increasing uncertainty of the market and helps drive down the volatility and reverse the negative mean return. It is evidenced by the rejuvenation of VN-Index after the lockdown.
+> Regarding the regression results presented in Table above, it is apparent that the volatility of the stock market is variable in the period before and after the implementation of the lockdown policy. Specifically, the volatility increases before the lockdown policy take effect while decrease after it ended. Vietnamese government's swift and astute actions in controlling the COVID-19 pandemic has relieved the fears and pessimism lingering in the market. It acts as pain relief to the increasing uncertainty of the market and helps drive down the volatility and reverse the negative mean return. It is evidenced by the rejuvenation of VN-Index after the lockdown.
 
 ### Leverage Effects in GARCH Models
 
